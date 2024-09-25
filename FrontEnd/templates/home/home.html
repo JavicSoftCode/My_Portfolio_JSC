@@ -15,9 +15,9 @@
 
 <body class="text-light">
 {% include '../components/navbar.html' %}
-
-<div class="container p-4 font-family-home">
+<div class="container p-4 font-family-home container-welcome">
     {% block content %}
+    {% include '../components/welcome.html' %}
     {% endblock %}
 </div>
 
